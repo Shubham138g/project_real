@@ -1,0 +1,66 @@
+.home_btn{
+    height: 200px;
+    width: 100px;
+}
+.navBAr li{
+    margin-right: 20px !important;
+    /* font-weight: 900 !important; */
+}
+.navBAr li a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    color: black !important;
+    font-size: 20px !important;
+}
+.center_btn{
+    margin: 20px 30px 0px 0px;
+    width: 80px;
+}
+.center_btn:hover{
+    border-bottom: 3px solid black;
+    transition:  all 0.6s;
+}
+/* footer start  */
+.bg-dark-subtle{
+    background-color: #14202e !important;
+}
+.bg-blue{
+    background-color: #14202e !important;
+}
+.input_box input{
+    height:80px;
+}
+.input_box input::placeholder{
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.apple_store{
+    width: 100%;
+    height: 85px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 0, 0.683);
+    display: flex;
+    align-items: center;
+}
+.apple_store img{
+    /* width: 16%; */
+    height: 40px;
+    /* margin-left: 20px; */
+    
+}
+.google_store{
+    width: 100%;
+    height: 85px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 0, 0.683);
+    display: flex;
+    align-items: center;
+}
+.google_store img{
+    height: 40px;
+    /* margin-left: 20px; */
+}
+
+/* footer end  */
