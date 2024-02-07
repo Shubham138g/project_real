@@ -35,6 +35,9 @@
     border-radius: 50%;
     background-color: #29435f;
 }
+.card_inner_icon:hover{
+    background-color: rgb(13, 13, 97);
+}
 .card_inner_icon img{
     filter: invert(100%);
     -webkit-filter: invert(100%);
