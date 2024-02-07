@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box !important;
+}
 .home_btn{
     height: 200px;
     width: 100px;
@@ -19,6 +22,29 @@
     border-bottom: 3px solid black;
     transition:  all 0.6s;
 }
+
+/* banner start  */
+.banner_img img{
+    width: 100%;
+    background-size: cover;
+}
+.card_inner_icon{
+    width: 75px;
+    height: 75px;
+    border: none;
+    border-radius: 50%;
+    background-color: #29435f;
+}
+.card_inner_icon img{
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+    width: 60%;
+    position: relative;
+    top: 10px;
+    left: 15px;
+}
+/* banner end */
+
 /* footer start  */
 .bg-dark-subtle{
     background-color: #14202e !important;
