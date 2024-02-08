@@ -93,3 +93,16 @@
 }
 
 /* footer end  */
+
+
+/* iframe start  */
+.card_box{
+    border: 2px solid rgba(0, 0, 0, 0.283);
+    border-radius: 7px;
+    transition: all .4s ;
+}
+.card_box:hover{
+    box-shadow: 3px 3px 14px rgba(0, 0, 0, 0.571);
+    transition: all .4s ;
+}
+/* iframe end */
