@@ -106,3 +106,12 @@
     transition: all .4s ;
 }
 /* iframe end */
+
+/* inquiry form start  */
+.inquiry_container{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    
+}
+/* inquiry form end */
