@@ -115,3 +115,23 @@
     
 }
 /* inquiry form end */
+
+/* buy section start  */
+.buy_card{
+    text-decoration: none;
+}
+.buy_card:hover{
+    text-decoration: underline;
+}
+.image_container{
+
+    overflow: hidden;
+}
+.buy_card_img{
+    transition: transform 0.3s ease;
+    height: auto;
+}
+.buy_card_img:hover{
+    transform: scale(1.1) rotate(1deg);
+}
+/* buy section end */
