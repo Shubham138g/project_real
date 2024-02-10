@@ -137,3 +137,10 @@
     transform: scale(1.1) rotate(1deg);
 }
 /* buy section end */
+
+/* developer section start  */
+.fixed-card {
+    width: 300px; /* Adjust as needed */
+    height: 400px ; /* Adjust as needed */
+  }
+/* developer section end */
