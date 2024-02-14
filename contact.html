@@ -18,12 +18,11 @@
     <!-- navbar start  -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-8">
-
-                </div>
-            </div>
-            <img src="./assets/image/logo.webp" width="80" class="me-2" alt="SK Scrapper">
+            <!-- <div class="row">
+                <div class="col-8"></div>
+            </div> -->
+            <img src="./assets/image/logo.webp" width="80" class="me-2 d-lg-inline-block d-md-none d-sm-none" alt="SK Scrapper">
+            <a href="./index.html" class="d-md-inline-block d-lg-none justify-content-md-start text-decoration-none text-dark">SK Skyscrapper PVT.LTD.</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -38,36 +37,39 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item pb-2 pe-5" href="./index.html">Home</a></li>
-                            <li><a class="dropdown-item pb-2 pe-5" href="index.html#feature">Featured Properties</a></li>
+                            <li><a class="dropdown-item pb-2 pe-5" href="#feature">Featured Properties</a></li>
                             <li><a class="dropdown-item pb-2 pe-5" href="#">Exclusive Team</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
-                            Residental
+                            Property
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item pb-2 pe-5" href="#">Buy</a></li>
-                            <li><a class="dropdown-item pb-2 pe-5" href="#">Rent</a></li>
+                            <li><a class="dropdown-item pb-2 pe-5" href="./buy.html">Buy</a></li>
+                            <!-- <li><a class="dropdown-item pb-2 pe-5" href="#">Rent</a></li> -->
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="#">Developer</a>
+                        <a class="nav-link " aria-current="page" href="./developer.html">Developer</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
-                            More
+                            Register
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item pb-2 pe-5" href="./register.html">Register</a></li>
-                            <li><a class="dropdown-item pb-2 pe-5" href="./login.html">Login</a></li>
-                            <li><a class="dropdown-item pb-2 pe-5" href="./contact.html">Contact Us</a></li>
+                            <li><a class="dropdown-item pb-2 pe-5" href="./register.html">Register As Buyer</a></li>
+                            <!-- <li><a class="dropdown-item pb-2 pe-5" href="./login.html">Login</a></li> -->
+                            <li><a class="dropdown-item pb-2 pe-5" href="./registerasreseller.html">Register As Reseller</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link " aria-current="page" href="./contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="./login.html">Login</a>
                     </li>
                 </ul>
                 <div class="">
@@ -92,20 +94,20 @@
                         <label  class="form-label">Contact us for find a new property for you.</label>
                     </div>
                     <div class="mb-3">
-                        <label for="name" class="form-label">Name</label>
+                        <label for="name" class="form-label"><i class="fa-solid fa-user fa-lg me-2"></i>Name</label>
                         <input type="text" class="form-control" required id="name" aria-describedby="emailHelp">
                     </div>
                     <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <label for="exampleInputEmail1" class="form-label"><i class="fa-solid fa-envelope fa-lg me-2"></i>Email address</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" required aria-describedby="emailHelp">
                         <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                     </div>
                     <div class="mb-3">
-                        <label for="phone" class="form-label">Phone No.</label>
+                        <label for="phone" class="form-label"><i class="fa-solid fa-phone fa-lg me-2"></i>Phone No.</label>
                         <input type="tel" class="form-control" required min="10" max="10" id="phone">
                     </div>
                     <div class="mb-3">
-                        <label for="address" class="form-label">Address</label>
+                        <label for="address" class="form-label"><i class="fa-solid fa-map-pin fa-lg me-2"></i>Address</label>
                         <input type="text" class="form-control" required id="address">
                     </div>
                    

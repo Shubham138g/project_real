@@ -166,4 +166,8 @@
     -webkit-text-fill-color: transparent;
     padding: 10px;
 }
+.dashboard_btn_hover:hover{
+    border-bottom: 2px solid white;
+
+}
 /* dashboard end */

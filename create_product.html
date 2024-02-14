@@ -17,10 +17,11 @@
     <!-- navbar start  -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-8"></div>
-            </div>
-            <img src="./assets/image/logo.webp" width="80" class="me-2" alt="SK Scrapper">
+            </div> -->
+            <img src="./assets/image/logo.webp" width="80" class="me-2 d-lg-inline-block d-md-none d-sm-none" alt="SK Scrapper">
+            <a href="./index.html" class="d-md-inline-block d-lg-none justify-content-md-start text-decoration-none text-dark">SK Skyscrapper PVT.LTD.</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -42,11 +43,11 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
-                            Residental
+                            Property
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item pb-2 pe-5" href="./buy.html">Buy</a></li>
-                            <li><a class="dropdown-item pb-2 pe-5" href="#">Rent</a></li>
+                            <!-- <li><a class="dropdown-item pb-2 pe-5" href="#">Rent</a></li> -->
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -55,16 +56,19 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
-                            More
+                            Register
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item pb-2 pe-5" href="./register.html">Register</a></li>
-                            <li><a class="dropdown-item pb-2 pe-5" href="./login.html">Login</a></li>
-                            <li><a class="dropdown-item pb-2 pe-5" href="./contact.html">Contact Us</a></li>
+                            <li><a class="dropdown-item pb-2 pe-5" href="./register.html">Register As Buyer</a></li>
+                            <!-- <li><a class="dropdown-item pb-2 pe-5" href="./login.html">Login</a></li> -->
+                            <li><a class="dropdown-item pb-2 pe-5" href="./registerasreseller.html">Register As Reseller</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link " aria-current="page" href="./contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="./login.html">Login</a>
                     </li>
                 </ul>
                 <div class="">
@@ -79,35 +83,44 @@
     <div class="container my-5">
         <div class="row d-flex justify-content-center">
             <div class="col-lg-6 col-md-12">
-                <h2 class="text-center py-5">Add New Property</h2>
+                <h2 class="text-center py-5 fw-bold"><i class="fa-solid fa-building fa-lg me-3"></i>Add New Property</h2>
                 <form>
                     
                     <div class="mb-3">
-                      <label for="image" class="form-label">Upload Image</label>
+                      <label for="image" class="form-label"><i class="fa-regular fa-image fa-lg me-2"></i>Upload Image</label>
                       <input type="file" class="form-control rounded-0" id="image" required>
                     </div>
                     <div class="mb-3">
-                      <label for="title1" class="form-label">Title1</label>
+                      <label for="title1" class="form-label"><i class="fa-solid fa-pen-nib fa-lg me-2"></i>Title1</label>
                       <input type="text" class="form-control rounded-0" id="title1" required>
                     </div>
                     <div class="mb-3">
-                      <label for="title2" class="form-label">Title2</label>
+                      <label for="title2" class="form-label"><i class="fa-solid fa-pen-nib fa-lg me-2"></i>Title2</label>
                       <input type="text" class="form-control rounded-0" id="title2" required>
                     </div>
                     <div class="mb-3">
-                      <label for="area" class="form-label">Area Of Property</label>
+                      <label for="area" class="form-label"><i class="fa-solid fa-arrow-up-right-from-square fa-lg me-2"></i>Area Of Property</label>
                       <input type="text" class="form-control rounded-0" id="area" required>
                     </div>
                     <div class="mb-3">
-                      <label for="bath" class="form-label">Number of Bathroom</label>
+                      <label for="bath" class="form-label"><i class="fa-solid fa-bath fa-lg me-2"></i>Number of Bathroom</label>
                       <input type="number" class="form-control rounded-0" id="bath" required>
                     </div>
                     <div class="mb-3">
-                      <label for="bedroom" class="form-label">Number of Bedroom</label>
+                      <label for="bedroom" class="form-label"><i class="fa-solid fa-bed fa-lg me-2"></i>Number of Bedroom</label>
                       <input type="number" class="form-control rounded-0" id="bedroom" required>
                     </div>
                     <div class="mb-3">
-                      <label for="property_price" class="form-label">Price Of Property</label>
+                        <label for="category" class="form-label"><i class="fa-solid fa-check fa-lg me-2"></i>Select Category</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option value="Apartment">Apartment</option>
+                            <option value="Villa">Villa</option>
+                            <option value="Office">Office</option>
+                            <option value="Town Home">Town Home</option>
+                          </select>
+                    </div>
+                    <div class="mb-3">
+                      <label for="property_price" class="form-label"><i class="fa-solid fa-tag fa-lg me-2"></i>Price Of Property</label>
                       <input type="number" class="form-control rounded-0" id="property_price" required>
                     </div>
                    
